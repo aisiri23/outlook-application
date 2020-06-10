@@ -1,0 +1,46 @@
+*{
+  font-family: arial;
+  box-sizing: border-box;
+}
+body{
+  margin: 0px;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+ul{
+  list-style-type: none;
+}
+li{
+  padding: 5px 0px 5px;
+  font-size:15px;
+  cursor:pointer;
+  clear: both;
+}
+.container{
+  height: 100%;
+  width: 500px;
+  padding: 0px;
+  margin-left: 30px;
+}
+.header{
+  height: 36px;
+  background-color: #000;
+  color: #fff;
+}
+.header p{
+  margin:0px;
+  padding: 10px;
+}
+.folders{
+  cursor: pointer;
+  border:0px;
+  background: none;
+  font-size: 20px;
+  outline: none;
+}
+.unreadCount{
+  float:right;
+  font-weight: bold;
+}
